@@ -9,6 +9,9 @@ int main()
 	cin>>x;
 	cout<<"Enter a value y= ";
 	cin>>y;
+	x=x+y;
+	y=x-y;
+	x=x-y;
 	cout<<"Values has been swaped x= "<<x<<" y= "<<y;
 	return 0;
 }
